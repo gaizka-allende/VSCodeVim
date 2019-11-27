@@ -1,0 +1,41 @@
+{
+  "workbench.editor.enablePreview": false,
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["s", "s"],
+      "commands": [":w"] 
+    },
+    {
+      "before": ["q", "q"],
+      "commands": [":q"] 
+    },
+    {
+      "before": ["<space>"],
+      "after": ["/"] 
+    }
+  ],
+  "vim.leader": "\\",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "vim.cursorStylePerMode.insert": "line"
+}
