@@ -19,7 +19,7 @@
     },
     {
       "before": ["s", "s"],
-      "commands": [":w"] 
+      "commands": ["workbench.action.file.save"] 
     },
     {
       "before": ["q", "q"],
