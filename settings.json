@@ -24,6 +24,10 @@
     {
       "before": ["q", "q"],
       "commands": ["workbench.action.closeActiveEditor"] 
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
     }
   ],
   "vim.leader": "<space>",
