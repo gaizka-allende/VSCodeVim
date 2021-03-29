@@ -30,7 +30,7 @@
       "after": ["/"] 
     }
   ],
-  "vim.leader": "\\",
+  "vim.leader": "<space>",
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false
