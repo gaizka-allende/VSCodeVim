@@ -24,10 +24,6 @@
     {
       "before": ["q", "q"],
       "commands": ["workbench.action.closeActiveEditor"] 
-    },
-    {
-      "before": ["<space>"],
-      "after": ["/"] 
     }
   ],
   "vim.leader": "<space>",
