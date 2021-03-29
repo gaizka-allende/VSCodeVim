@@ -23,7 +23,7 @@
     },
     {
       "before": ["q", "q"],
-      "commands": [":q"] 
+      "commands": ["workbench.action.closeActiveEditor"] 
     },
     {
       "before": ["<space>"],
