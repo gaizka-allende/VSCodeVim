@@ -48,7 +48,7 @@
       },
       {
         "before": ["s", "s"],
-        "commands": ["workbench.action.files.save"] 
+        "commands": ["workbench.action.files.saveAll"] 
       },
       {
         "before": ["q", "q"],
