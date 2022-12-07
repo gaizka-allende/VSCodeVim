@@ -1,41 +1,64 @@
 {
-  "workbench.editor.enablePreview": false,
-  "vim.easymotion": true,
-  "vim.sneak": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
+    "workbench.colorTheme": "Default Dark+",
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["s", "s"],
-      "commands": ["workbench.action.file.save"] 
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["q", "q"],
-      "commands": ["workbench.action.closeActiveEditor"] 
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-      "before": ["<leader>", "t"],
-      "commands": ["workbench.action.toggleSidebarVisibility"]
-    }
-  ],
-  "vim.leader": "<space>",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false
-  },
-  "window.zoomLevel": 0,
-  "editor.minimap.enabled": false,
-  "vim.cursorStylePerMode.insert": "line"
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.statusBarColors.surroundinputmode": "",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      },
+      {
+        "before": ["s", "s"],
+        "commands": ["workbench.action.files.save"] 
+      },
+      {
+        "before": ["q", "q"],
+        "commands": ["workbench.action.closeActiveEditor"] 
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false,
+      "<C-n>": false
+  }
 }
