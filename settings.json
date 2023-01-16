@@ -20,6 +20,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.minimap.enabled": false,
+    "search.quickOpen.includeHistory": false,
     "vim.cursorStylePerMode.insert": "line",
     "vim.statusBarColors.surroundinputmode": "",
     "vim.easymotion": true,
