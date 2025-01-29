@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Default Dark+",
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "window.zoomLevel": 1,
     "editor.formatOnSave": true,
     "editor.fontFamily": "Hack",
