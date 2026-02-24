@@ -63,5 +63,8 @@
       "<C-f>": false,
       "<C-n>": false,
       "<C-p>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
   }
 }
