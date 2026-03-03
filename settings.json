@@ -3,10 +3,13 @@
     "workbench.editor.enablePreview": true,
     "window.zoomLevel": 1,
     "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
     "editor.fontFamily": "Hack",
     "editor.fontSize": 12,
     "editor.fontLigatures": true,
     "editor.lineNumbers": "relative",
+    "editor.stickyScroll.enabled": true,
+    "explorer.confirmDelete": false,
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -21,13 +24,15 @@
     },
     "editor.minimap.enabled": false,
     "search.quickOpen.includeHistory": false,
+    "files.trimTrailingWhitespace": true,
+    "vim.smartRelativeLine": true,
     "vim.cursorStylePerMode.insert": "line",
-    "vim.statusBarColors.surroundinputmode": "",
-    "vim.easymotion": true,
-    "vim.incsearch": true,
+    "vim.statusBarColors.surroundInputMode": "",
+    "vim.easyMotion": true,
+    "vim.incSearch": true,
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
+    "vim.hlSearch": true,
     "vim.surround": true,
     "vim.insertModeKeyBindings": [
       {
@@ -57,6 +62,10 @@
         "before": ["q", "q"],
         "commands": ["workbench.action.closeActiveEditor"] 
       }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+      { "before": [">"], "commands": ["editor.action.indentLines"] },
+      { "before": ["<"], "commands": ["editor.action.outdentLines"] }
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
