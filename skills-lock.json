@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "react-router-data-mode": {
+      "source": "remix-run/agent-skills",
+      "sourceType": "github",
+      "computedHash": "76e3e0f70ff47b743bd90999e676515221e25fd7ee89cd9e5b340417b1a601e2"
+    },
+    "react-router-declarative-mode": {
+      "source": "remix-run/agent-skills",
+      "sourceType": "github",
+      "computedHash": "d7ebbf1ede90809618f02cb3b3d37b9871cdd6c88a81cf338e63de50a0df6a42"
+    },
+    "react-router-framework-mode": {
+      "source": "remix-run/agent-skills",
+      "sourceType": "github",
+      "computedHash": "26c5bdac2f686c47eb4c4b48b6cb52401cde1dc833e6d26408ddfb22ea83c5ca"
+    }
+  }
+}

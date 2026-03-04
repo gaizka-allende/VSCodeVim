@@ -1,80 +1,88 @@
 {
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.editor.enablePreview": true,
-    "window.zoomLevel": 1,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.fontFamily": "Hack",
-    "editor.fontSize": 12,
-    "editor.fontLigatures": true,
-    "editor.lineNumbers": "relative",
-    "editor.stickyScroll.enabled": true,
-    "explorer.confirmDelete": false,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.editor.enablePreview": true,
+  "window.zoomLevel": 1,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "Hack",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDelete": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "search.quickOpen.includeHistory": false,
+  "files.trimTrailingWhitespace": true,
+  "vim.smartRelativeLine": true,
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.statusBarColors.surroundInputMode": "",
+  "vim.easyMotion": true,
+  "vim.incSearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlSearch": true,
+  "vim.surround": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
     },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
     },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "before": ["s", "s"],
+      "commands": ["workbench.action.files.saveAll"]
     },
-    "editor.minimap.enabled": false,
-    "search.quickOpen.includeHistory": false,
-    "files.trimTrailingWhitespace": true,
-    "vim.smartRelativeLine": true,
-    "vim.cursorStylePerMode.insert": "line",
-    "vim.statusBarColors.surroundInputMode": "",
-    "vim.easyMotion": true,
-    "vim.incSearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlSearch": true,
-    "vim.surround": true,
-    "vim.insertModeKeyBindings": [
-      {
-        "before": ["j", "j"],
-        "after": ["<Esc>"]
-      }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-      {
-        "before": ["<leader>", "d"],
-        "after": ["d", "d"]
-      },
-      {
-        "before": ["<C-n>"],
-        "commands": [":nohl"]
-      },
-      {
-        "before": ["K"],
-        "commands": ["lineBreakInsert"],
-        "silent": true
-      },
-      {
-        "before": ["s", "s"],
-        "commands": ["workbench.action.files.saveAll"] 
-      },
-      {
-        "before": ["q", "q"],
-        "commands": ["workbench.action.closeActiveEditor"] 
-      }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-      { "before": [">"], "commands": ["editor.action.indentLines"] },
-      { "before": ["<"], "commands": ["editor.action.outdentLines"] }
-    ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-      "<C-a>": false,
-      "<C-f>": false,
-      "<C-n>": false,
-      "<C-p>": false
+    {
+      "before": ["q", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    { "before": [">"], "commands": ["editor.action.indentLines"] },
+    { "before": ["<"], "commands": ["editor.action.outdentLines"] }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-n>": false,
+    "<C-p>": false
   },
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
-  }
+  },
+  "chat.mcp.gallery.enabled": true,
+  "claudeCode.preferredLocation": "panel"
 }
